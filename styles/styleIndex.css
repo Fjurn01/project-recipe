@@ -1,0 +1,28 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+p{
+    padding-left: 5%;
+}
+
+a {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration-line: none;
+}
+
+ol{
+    padding-left: 15%;
+    list-style-type: upper-alpha;
+}
+
+body{
+    background-color: hsl(110deg, 50% , 80%);
+}
