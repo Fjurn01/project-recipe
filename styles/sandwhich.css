@@ -1,0 +1,43 @@
+body{
+    
+    font-family:fantasy;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.552);
+}
+.title
+{
+    font-weight:600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#first{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+.list
+{
+    padding-left: 10%;
+    padding-right:5%;
+}
+#igredients{
+    padding-left: 20%;
+}
+#introduction,#end{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#steps{
+    padding-left: 20%;
+}
+#image{
+    width:100%;
+}
+.ending{
+    color: white;
+    background-color: rgba(92, 98, 98, 0.558);
+    text-align: center;
+}
+.ending >a{
+    text-decoration-line: none;
+}
