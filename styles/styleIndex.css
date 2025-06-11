@@ -1,16 +1,20 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-h1{
+        h1,
+        p,
+        ol,
+        li {
+            font-family: 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-bottom: 5%;
+            padding-top: 2%;
+            box-sizing: border-boxß;
+        }
+h1 {
     text-align: center;
     text-decoration-line: underline;
 }
 
-p{
-    padding-left: 5%;
-}
 
 a {
     font-weight: bold;
@@ -18,11 +22,27 @@ a {
     text-decoration-line: none;
 }
 
-ol{
-    padding-left: 15%;
-    list-style-type: upper-alpha;
+body {
+    background-color: hsl(110deg, 50%, 80%);
 }
 
-body{
-    background-color: hsl(110deg, 50% , 80%);
+.MainLinks li {
+    background-color: rgb(228, 221, 17);
+    display: flexbox;
+    display: inline;
+    list-style: none;
+    padding-top: 5%;
+    margin-left: 5%;
+    border-radius: 15%;
+    margin-right: 5%;
+}
+
+.MainLinks li:hover {
+    background-color: rgb(136, 255, 0);
+}
+
+body p {
+    padding-bottom: 10%;
+    font-weight: bolder;
+    font-size: larger;
 }
